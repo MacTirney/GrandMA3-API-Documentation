@@ -7,9 +7,10 @@ Welcome to the comprehensive API documentation for Lua scripting in the GrandMA3
 This project aims to empower Lighting Programmers by providing comprehensive documentation for interacting with the GrandMA3 System using Lua scripting. Whether you're a seasoned developer or just starting, this documentation serves as a solid foundation for navigating and utilizing the capabilities of Lua in the GrandMA3 environment.
 
 ## Main Features
-* **GMA3 Lua API:** A well-organized guide featuring each function's description, ensuring a clear understanding of the available features.
-* **Modules:** Dedicated modules with detailed information on the basic syntax of functions in the Lua programming language, specifically designed for the GrandMA3 System.
-* **Specialized Documents:** Documents for specific modules, such as a x
+* **Docs:** x
+* **Modules** 
+    * **Object API Functions:** y
+    * **Object API:** x
 
 ## Future Updates
 I hope to update this project with real-world examples using the above Lua functions. This update will provide Lighting Programmers with practical, real-world examples that allow for a quick start and easy iteration. 
@@ -18,8 +19,9 @@ I hope to update this project with real-world examples using the above Lua funct
 Lua is a scripting language designed to support general procedural programming.
 It offers support for object-oriented programming, functional programming, and data-driven programming. 
 Lua is implemented as a library, written in clean C.
+Lua code can be executed from plugins or directly in the command line using the [Lua Keyword](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/Docs/Helpful%20Keywords.md)
 
-The GrandMA3 software supports Lua version 5.4.4 and all the built-in standard libraries.
+The GrandMA3 version 1.9 software supports Lua version 5.4.4 and all the built-in standard libraries.
 
 For more information on scripting with Lua see: [Lua Docs](www.lua.org).
 
@@ -40,8 +42,8 @@ Below is a list of Downloads and VS Code Extensions that I recommend you install
 
 Both can be found and installed in the VS Code Extensions tab.
 
-[Lua Language Server](https://luals.github.io/)
-[Lua Helper](https://github.com/Tencent/LuaHelper)
+* [Lua Language Server](https://luals.github.io/)
+* [Lua Helper](https://github.com/Tencent/LuaHelper)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
