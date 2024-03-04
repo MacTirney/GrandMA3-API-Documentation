@@ -59,6 +59,28 @@ Keywords are x, they are used to create valid commands on the command line. Thei
         * **Input:** SwitchTograndMA3Software IP 192.168.0.4
     * **Shorthand:** SwgMA3
 
+* **GetUserVariable**
+    * **Description:** The GetUserVariable keyword is used to display user-specific variables along with their values in the command line history. 
+    * **Syntax:** GetUserVariable ["Variable_Name"]
+    * **Example 1:**
+        * **Background:** Display's all user-specific variables in the command line history.
+        * **Input:** GetUserVariable "*"
+    * **Example 2:**
+        * **Background:** Display's all user-specific variables beginning with the letter f.
+        * **Input:** GetUserVariable "f*"
+    * **Shorthand:** GetU
+
+* **GetGlobalVariable**
+    * **Description:** The GetGlobalVariable keyword is used to display global variables along with their values in the command line history. 
+    * **Syntax:** GetGlobalVariable ["Variable _Name"]
+    * **Example 1:**
+        * **Background:** Display's all variables in the command line history.
+        * **Input:** GetGlobalVariable "*"
+    * **Example 2:** 
+        * **Background:** Display's all variables beginning with the letter f.
+        * **Input:** GetGlobalVariable "f*"
+    * **Shorthand:** Getg
+
 ## Additional Keywords
 To access more Keywords for the GrandMA3 software. Please refer to the following documents.
 
