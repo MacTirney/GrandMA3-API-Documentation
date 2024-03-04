@@ -18,6 +18,7 @@ The handle is a custom data type called "light_userdata".
 The handle is a unique identifier that refers to a grandMA3 object, for instance, a specific sequence, cue,  preset, or fixture.
 
 ## Object API Functions - General
+### A
 * **Addr()**
     * **About**
         * The Addr Lua object function converts a handle to an address string (path) that can be used in commands.
@@ -35,8 +36,8 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
             * This can be useful if there is a difference between the ToAddr() and Addr() functions.
             * Setting this to "true" uses the index number from the ToAddr() function instead of the Addr() index number.
     * **Return**
-        * String
-        * Text string with the address in a parent-child number format, separated by dots.
+        * String:
+            * Text string with the address in a parent-child number format, separated by dots.
     * **Examples**
         * [Click Here]()
 
@@ -56,11 +57,12 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
         * Boolean (Optional):
             * Set this to "true" to get the returned names in quotation marks.
     * **Return**
-        * String
-        * Text string with the address in a parent-child name format, separated by dots.
+        * String:
+            * Text string with the address in a parent-child name format, separated by dots.
     * **Examples**
         * [Click Here]()
 
+### C
 * **Children()**
     * **About**
         * The Children Lua function creates a table of handles of the children of an object.
@@ -71,12 +73,13 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
             * The function takes a handle of the type "light_userdata" as an argument. 
                 * It can be omitted when using the colon notation on an object.
     * **Return**
-        * Table
-        * The function returns a table with the child objects. 
-        * If there are no children, then it returns an empty table.
+        * Table:
+            * The function returns a table with the child objects. 
+            * If there are no children, then it returns an empty table.
     * **Examples**
         * [Click Here]()
 
+### D
 * **Dump()**
     * **About**
         * The function returns a string with information about the object.
@@ -93,6 +96,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
     * **Examples**
         * [Click Here]()
 
+### E
 * **Export()**
     * **About**
         * The object Export Lua function exports an object into an XML file.
@@ -112,6 +116,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
     * **Examples**
         * [Click Here]()
 
+### H
 * **HasActivePlayback()**
     * **About**
         * The HasActivePlayback Lua function returns a boolean indicating if an object has a currently active playback.
@@ -123,12 +128,14 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
             * The function takes a handle of the type "light_userdata" as an argument. 
                 * It can be omitted when using the colon notation on an object.
     * **Return**
-        * The function returns a boolean indicating the playback status.
-            * True: There is active playback.
-            * False: There is no active playback.
+        * Boolean:
+            * The function returns a boolean indicating the playback status.
+                * True: There is active playback.
+                * False: There is no active playback.
     * **Examples**
         * [Click Here]()
 
+### I
 * **Import()**
     * **About**
         * The object version of the Import Lua function is used to import an object written in XML format.
@@ -153,6 +160,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
     * **Examples**
         * [Click Here]()
 
+### T
 * **ToAddr()**
     * **About**
         * The ToAddr() Lua object function converts a handle to an address string that can be used in commands.
@@ -163,9 +171,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
             * The function takes a handle of the type "light_userdata" as an argument. 
                 * It can be omitted when using the colon notation on an object. See the examples below.
     * **Return**
-        * Address
-        * String with the address value.
+        * String:
+            * String with the address value.
     * **Examples**
         * [Click Here]()
-
-## Object API Functions - Limited Documentation
