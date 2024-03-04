@@ -7,10 +7,16 @@ Welcome to the comprehensive API documentation for Lua scripting in the GrandMA3
 This project aims to empower Lighting Programmers by providing comprehensive documentation for interacting with the GrandMA3 System using Lua scripting. Whether you're a seasoned developer or just starting, this documentation serves as a solid foundation for navigating and utilizing the capabilities of Lua in the GrandMA3 environment.
 
 ## Main Features
-* **Docs:** x
+* **Docs**
+    * **Helpful Keywords:** A list of commonly used keywords for interacting with GrandMA3 Lua functions.
+    * **Basic Plugin Information:** A guide detailing the definition of a Lua Plugin, the steps to create one, and useful additional resources for Lua plugin development.
 * **Modules** 
-    * **Object API Functions:** y
-    * **Object API:** x
+    * **Object API**
+        * **Documentation:** A guide that explains Object API-defined Lua functions and provides a list of commonly used Object API Lua functions.
+        * **Functions:** Examples showcasing the use of Lua Object API functions in various scenarios.
+    * **Object Free API**
+        * **Documentation:** A guide that explains Object Free API-defined Lua functions and provides a list of commonly used Object API Lua functions.
+        * **Functions:** Examples showcasing the use of Lua Object Free API functions in various scenarios.
 
 ## Future Updates
 I hope to update this project with real-world examples using the above Lua functions. This update will provide Lighting Programmers with practical, real-world examples that allow for a quick start and easy iteration. 
