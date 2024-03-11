@@ -39,7 +39,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
         * String:
             * Text string with the address in a parent-child number format, separated by dots.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/A/Addr()/addrFuncExample.lua)
 
 * **AddrNative()**
     * **About**
@@ -60,7 +60,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
         * String:
             * Text string with the address in a parent-child name format, separated by dots.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/A/AddrNative()/addrNativeFuncExample.lua)
 
 ### C
 * **Children()**
@@ -77,7 +77,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
             * The function returns a table with the child objects. 
             * If there are no children, then it returns an empty table.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/C/Children()/childrenFuncExample.lua)
 
 ### D
 * **Dump()**
@@ -94,7 +94,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
         * The function does not return anything.
         * It outputs information about the object in the Command Line History window.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/D/Dump()/dumpFuncExample.lua)
 
 ### E
 * **Export()**
@@ -114,7 +114,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
         * The function does not return anything. 
         * It exports the object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/E/Export()/exportFuncExample.lua)
 
 ### H
 * **HasActivePlayback()**
@@ -133,7 +133,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
                 * True: There is active playback.
                 * False: There is no active playback.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/H/HasActivePlayback()/hasActivePlaybookFuncExample.lua)
 
 ### I
 * **Import()**
@@ -158,7 +158,7 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
         * The function does not return anything. 
         * It imports the object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/I/Import()/importFuncExample.lua)
 
 ### T
 * **ToAddr()**
@@ -174,4 +174,4 @@ The handle is a unique identifier that refers to a grandMA3 object, for instance
         * String:
             * String with the address value.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20API%20Functions/General%20Functions/T/ToAddr()/toAddrFuncExample.lua)
