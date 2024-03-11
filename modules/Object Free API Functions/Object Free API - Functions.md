@@ -63,7 +63,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle:
             * The function returns a handle of the set of user variables.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Variable%20Functions/U/UserVars()/userVarsFuncExample.lua)
 
 * **GlobalVars()**
     * **About**
@@ -76,7 +76,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle:
             * The function returns a handle of the set of global variables.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Variable%20Functions/G/GlobalVars()/globalVarsFuncExample.lua)
 
 * **GetVars()**
     * **About**
@@ -94,7 +94,7 @@ Most of the time the following three functions will need to know the variable's 
             * This is the value of the variable.
             * If the variable does not exist, then nil is returned.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Variable%20Functions/G/GetVar()/getVarFuncExample.lua)
 
 * **SetVars()**
     * **About**
@@ -116,7 +116,7 @@ Most of the time the following three functions will need to know the variable's 
             * True / 1: The variable was set.
             * False / 0: The variable was not set.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Variable%20Functions/S/SetVar()/setVarFuncExample.lua)
 
 * **DelVars()**
     * **About**
@@ -135,13 +135,15 @@ Most of the time the following three functions will need to know the variable's 
             * False / 0: The variable was not deleted.
                 * If the variable does not exist then false is also returned.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Variable%20Functions/D/DelVar()/delVarFuncExample.lua)
 
 ## Object API Functions - Interface Functions
 * **Progress Bar**
     * **About**
         * The Progress Bar is a Lua function that can create a moving progress bar on the screens.
         * There are several Lua functions connected to creating and running a progress bar.
+    * **Examples**
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Interface%20Functions/Progress%20Bar%20Functions/ProgressBarExample.lua)
 
 ### Object API Functions - Interface Functions - Progress Bar
 * **StartProgress()**
@@ -162,7 +164,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle:
             * The returned handle is the identifier for the progress bar.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Interface%20Functions/Progress%20Bar%20Functions/S/StartProgress()/startProgressFuncExample.lua)
 
 * **SetProgressRange()**
     * **About**
@@ -181,7 +183,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Interface%20Functions/Progress%20Bar%20Functions/S/SetProgressRange()/setProgressRangeFuncExample.lua)
 
 * **SetProgress()**
     * **About**
@@ -198,7 +200,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Interface%20Functions/Progress%20Bar%20Functions/S/SetProgress()/setProgressFuncExample.lua)
 
 * **SetProgressText()**
     * **About**
@@ -217,7 +219,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Interface%20Functions/Progress%20Bar%20Functions/S/SetProgressText()/setProgressTextFuncExample.lua)
 
 * **IncProgress()**
     * **About**
@@ -234,7 +236,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Interface%20Functions/Progress%20Bar%20Functions/I/IncProgress()/incProgressFuncExample.lua)
 
 * **StopProgress()**
     * **About**
@@ -250,7 +252,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/Interface%20Functions/Progress%20Bar%20Functions/S/StopProgress()/stopProgressFuncExample.lua)
 
 ## Object API Functions - General
 ### A
@@ -266,7 +268,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle of the set of variables.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/A/AddonVars()/addonVarsFuncExample.lua)
 
 ### B
 * **BuildDetails()**
@@ -291,7 +293,7 @@ Most of the time the following three functions will need to know the variable's 
                 * CodeType: String showing the type of code, for instance, "Release".
                 * IsRelease: Boolean indicating if the software is a release version.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/B/BuildDetails()/buildDetailsFuncExample.lua)
         
 ### C
 * **ClassExists()**
@@ -308,7 +310,7 @@ Most of the time the following three functions will need to know the variable's 
                 * True: The provided word is a class.
                 * False: The provided input is not a class.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/ClassExists()/classExistsFuncExample.lua)
 
 * **CloseAllOverlays()**
     * **About**
@@ -320,7 +322,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CloseAllOverlays()/closeAllOverlaysFuncExample.lua)
 
 * **CreateUndo()**
     * **About**
@@ -338,7 +340,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns the handle to the undo list.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CreateUndo()/createUndoFuncExample.lua)
 
 * **CloseUndo()**
     * **About**
@@ -355,7 +357,7 @@ Most of the time the following three functions will need to know the variable's 
             * True / 1: The undo list was closed.
             * False / 0: The undo list is still in use and cannot be closed.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CloseUndo()/closeUndoFuncExample.lua)
 
 * **Cmd()**
     * **About**
@@ -382,7 +384,7 @@ Most of the time the following three functions will need to know the variable's 
                 * Illegal Command: Command not executed because of some illegal command or action.
             * The returned string does not need to be used.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/Cmd()/cmdFuncExample.lua)
 
 * **CmdIndirect()**
     * **About**
@@ -403,7 +405,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CmdIndirect()/cmdIndirectFuncExample.lua)
 
 * **CmdIndirectWait()**
     * **About**
@@ -424,7 +426,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CmdIndirectWait()/cmdIndirectWaitFuncExample.lua)
 
 * **CmdObj()**
     * **About**
@@ -437,7 +439,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the command line object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CmdObj()/cmdObjFuncExample.lua)
 
 * **ConfigTable()**
     * **About**
@@ -452,7 +454,7 @@ Most of the time the following three functions will need to know the variable's 
         * Table
             * The returned table contains kay value pairs with configuration information
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/ConfigTable()/configTableFuncExample.lua)
 
 * **Confirm()**
     * **About**
@@ -479,7 +481,7 @@ Most of the time the following three functions will need to know the variable's 
             * False / 0: The pop-up was not confirmed with Cancel. 
                 * This is only a possible option if the Cancel button is visible.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/Confirm()/confirmFuncExample.lua)
 
 * **CurrentEnvironment()**
     * **About**
@@ -492,7 +494,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the environment.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CurrentEnvironment()/currentEnvironmentFuncExample.lua)
 
 * **CurrentExecPage()**
     * **About**
@@ -505,7 +507,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the executor page.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CurrentExecPage()/currentExecPageFuncExample.lua)
 
 * **CurrentProfile()**
     * **About**
@@ -518,7 +520,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the user profile.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CurrentProfile()/currentProfileFuncExample.lua)
 
 * **CurrentUser()**
     * **About**
@@ -531,7 +533,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the user.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/C/CurrentUser()/currentUserFuncExample.lua)
 
 ### D
 * **DataPool()**
@@ -545,7 +547,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the DataPool object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/D/DataPool()/dataPoolFuncExample.lua)
 
 * **DefaultDisplayPositions()**
     * **About**
@@ -559,7 +561,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the command line object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/D/DefaultDisplayPositions()/defaultDisplayPositionsFuncExample.lua)
 
 * **DeskLocked()**
     * **About**
@@ -574,7 +576,7 @@ Most of the time the following three functions will need to know the variable's 
                 * True (or 1): The station is locked.
                 * False (or 0): The station is not locked.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/D/DeskLocked()/deskLockedFuncExample.lua)
 
 * **DeviceConfiguration()**
     * **About**
@@ -587,7 +589,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the DeviceConfiguration.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/D/DeviceConfiguration()/deviceConfigurationFuncExample.lua)
 
 * **DrawPointer()**
     * **About**
@@ -606,7 +608,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/D/DrawPointer()/drawPointerFuncExample.lua)
 
 ### E
 * **Echo()**
@@ -620,7 +622,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/E/Echo()/echoFuncExample.lua)
 
 * **ErrEcho()**
     * **About**
@@ -633,7 +635,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/E/ErrEcho()/errEchoFuncExample.lua)
 
 * **ErrPrintf()**
     * **About**
@@ -646,7 +648,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/E/ErrPrintf()/errPrintfFuncExample.lua)
 
 * **Export()**
     * **About**
@@ -665,7 +667,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/E/Export()/exportFuncExample.lua)
 
 * **ExportCSV()**
     * **About**
@@ -682,7 +684,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/E/ExportCSV()/exportCSVFuncExample.lua)
 
 * **ExportJson()**
     * **About**
@@ -699,7 +701,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/E/ExportJson()/exportJsonFuncExample.lua)
 
 ### F
 * **FromAddr()**
@@ -719,7 +721,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle:
             * The handle for the addressed object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/F/FromAddr()/fromAddrFuncExample.lua)
 
 ### G
 * **GetApiDescriptor()**
@@ -741,7 +743,7 @@ Most of the time the following three functions will need to know the variable's 
                 * String
                     * This is the description of the Api returns.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetApiDescriptor()/getApiDescriptorFuncExample.lua)
 
 * **GetAttributeByUIChannel()**
     * **About**
@@ -756,7 +758,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The handle to the attribute connected to the UI Channel.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetAttributeByUIChannel()/getAttributeByUIChannelFuncExample.lua)
 
 * **GetAttributeCount()**
     * **About**
@@ -769,7 +771,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The returned integer number represents the total amount of attribute definitions in the show file.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetAttributeCount()/getAttributeCountFuncExample.lua)
 
 * **GetAttributeIndex()**
     * **About**
@@ -783,7 +785,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The returned integer number represents the total amount of patched fixtures on all the stages in the show file.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetAttributeIndex()/getAttributeIndexFuncExample.lua)
 
 * **GetChannelFunction()**
     * **About**
@@ -801,7 +803,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the channel function.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetChannelFunction()/getChannelFunctionFuncExample.lua)
 
 * **GetChannelFunctionIndex()**
     * **About**
@@ -819,7 +821,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The returned integer to a channel function.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetChannelFunctionIndex()/getChannelFunctionIndexFuncExample.lua)
 
 * **GetClassDerivationLevel()**
     * **About**
@@ -833,7 +835,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The returned integer indicates the class derivation level.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetClassDerivationLevel()/getClassDerivationLevelFuncExample.lua)
 
 * **GetDisplayByIndex()**
     * **About**
@@ -847,7 +849,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the display object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetDisplayByIndex()/getDisplayByIndexFuncExample.lua)
 
 * **GetDisplayCollect()**
     * **About**
@@ -860,7 +862,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the DisplayCollect .
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetDisplayCollect()/getDisplayCollectFuncExample.lua)
 
 * **GetDMXUniverse()**
     * **About**
@@ -883,7 +885,7 @@ Most of the time the following three functions will need to know the variable's 
             * Nil
                 * Nil is returned if the universe is not granted or the input value is out of range.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetDMXUniverse()/getDMXUniverseFuncExample.lua)
 
 * **GetDMXValue()**
     * **About**
@@ -905,7 +907,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The returned integer value corresponds with the value of the selected DMX address.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetDMXValue()/getDMXValueFuncExample.lua)
 
 * **GetExecutor()**
     * **About**
@@ -921,7 +923,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle - Page
             * The returned handle to the page.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetExecutor()/getExecutorFuncExample.lua)
 
 * **GetFocus()**
     * **About**
@@ -934,7 +936,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetFocus()/getFocusFuncExample.lua)
 
 * **GetFocusDisplay()**
     * **About**
@@ -947,7 +949,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the display object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetFocusDisplay()/getFocusDisplayFuncExample.lua)
 
 * **GetObjApiDescriptor()**
     * **About**
@@ -967,7 +969,7 @@ Most of the time the following three functions will need to know the variable's 
                 * String
                     * This is the description of the Api returns.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetObjApiDescriptor()/getObjApiDescriptorFuncExample.lua)
 
 * **GetPath()**
     * **About**
@@ -988,7 +990,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the first found full path related to the provided argument.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetPath()/getPathFuncExample.lua)
 
 * **GetPathSeparator()**
     * **About**
@@ -1001,7 +1003,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The string is a single character indicating the path separator based on the operating system.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetPathSeparator()/getPathSeparatorFuncExample.lua)
 
 * **GetRTChannel()**
     * **About**
@@ -1026,7 +1028,7 @@ Most of the time the following three functions will need to know the variable's 
                 * integer "rt_index"
                 * table "patch"
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetRTChannel()/getRTChannelFuncExample.lua)
 
 * **GetRTChannelCount()**
     * **About**
@@ -1039,7 +1041,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The function returns an integer number depicting the total amount of RT channels.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetRTChannelCount()/getRTChannelCountFuncExample.lua)
 
 * **GetRTChannels()**
     * **About**
@@ -1068,7 +1070,7 @@ Most of the time the following three functions will need to know the variable's 
         * Table
             * The returned table can be a list of RT Channel indexes or handles to the same RT Channels.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetRTChannels()/getRTChannelsFuncExample.lua)
 
 * **GetSample()**
     * **About**
@@ -1088,7 +1090,7 @@ Most of the time the following three functions will need to know the variable's 
         * Number
             * A number (float) is returned.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetSample()/getSampleFuncExample.lua)
 
 * **GetSelectedAttribute()**
     * **About**
@@ -1101,7 +1103,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the selected attribute.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetSelectedAttribute()/getSelectedAttributeFuncExample.lua)
 
 * **GetShowFileStatus()**
     * **About**
@@ -1115,7 +1117,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the enum string from "Enums.ShowFileStatus" that matches the current status.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetShowFileStatus()/getShowFileStatusFuncExample.lua)
 
 * **GetSubfixture()**
     * **About**
@@ -1129,7 +1131,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the fixture object matching the provided index number.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetSubfixture()/getSubfixtureFuncExample.lua)
 
 * **GetSubfixtureCount()**
     * **About**
@@ -1142,7 +1144,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The returned integer number represents the total amount of patched fixtures on all the stages in the show file.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetSubfixtureCount()/getSubfixtureCountFuncExample.lua)
 
 * **GetTokenName()**
     * **About**
@@ -1159,7 +1161,7 @@ Most of the time the following three functions will need to know the variable's 
             * Nil
                 * If there is no corresponding keyword, then nil is returned.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetTokenName()/getTokenNameFuncExample.lua)
 
 * **GetTokenNameByIndex()**
     * **About**
@@ -1177,7 +1179,7 @@ Most of the time the following three functions will need to know the variable's 
             * Nil
                 * If there is no corresponding keyword, then nil is returned.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetTokenNameByIndex()/getTokenNameByIndexFuncExample.lua)
 
 * **GetUIChannelCount()**
     * **About**
@@ -1190,7 +1192,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The function returns an integer number depicting the total amount of UI channels.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetUIChannelCount()/getUIChannelCountFuncExample.lua)
 
 * **GetUIChannelIndex()**
     * **About**
@@ -1207,7 +1209,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             The returned integer to a channel function.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetUIChannelIndex()/getUIChannelCountFuncExample.lua)
 
 * **GetUIChannels()**
     * **About**
@@ -1236,7 +1238,7 @@ Most of the time the following three functions will need to know the variable's 
         * Table
             * The returned table can be a list of UI Channel indexes or handles to the same UI Channel indexes.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/G/GetUIChannels()/getUIChannelsFuncExample.lua)
 
 ### H
 * **HandleToInt()**
@@ -1251,7 +1253,7 @@ Most of the time the following three functions will need to know the variable's 
         * Integer
             * The returned integer is the handle converted to an integer.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/H/HandleToInt()/handleToIntFuncExample.lua)
 
 * **HandleToStr()**
     * **About**
@@ -1265,7 +1267,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the handle number converted to a hexadecimal format.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/H/HandleToStr()/handleToStrFuncExample.lua)
 
 * **HookObjectChange()**
     * **About**
@@ -1282,7 +1284,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/H/HookObjectChange()/hookObjectChangeFuncExample.lua)
 
 * **HostOS()**
     * **About**
@@ -1295,7 +1297,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the operating system of the grandMA3 hardware or grandMA3 onPC computer.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/H/HostOS()/hostOSFuncExample.lua)
 
 * **HostSubType()**
     * **About**
@@ -1308,7 +1310,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the host sub-type of the device.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/H/HostSubType()/hostSubTypeFuncExample.lua)
 
 * **HostType()**
     * **About**
@@ -1321,7 +1323,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the host type of the device.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/H/HostType()/hostTypeFuncExample.lua)
 
 ### I
 * **Import()**
@@ -1337,7 +1339,7 @@ Most of the time the following three functions will need to know the variable's 
         * This function does not return anything.
             * It imports the data as a table.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/I/Import()/importFuncExample.lua)
 
 * **IntToHandle()**
     * **About**
@@ -1352,7 +1354,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle of the object correlates with the integer.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/I/IntToHandle()/intToHandleFuncExample.lua)
 
 * **IsObjectValid()**
     * **About**
@@ -1366,7 +1368,7 @@ Most of the time the following three functions will need to know the variable's 
         * Boolean or Nil:
             * The returned value is a boolean True if the handle is a valid object or it returns nil if it is not a valid object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/I/IsObjectValid()/isObjectValidFuncExample.lua)
 
 ### K
 * **KeyboardObj()**
@@ -1380,7 +1382,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns the handle to the keyboard object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/K/KeyboardObj()/keyboardObjFuncExample.lua)
 
 ### M
 * **MasterPool()**
@@ -1394,7 +1396,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns the handle to the pool of masters.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/M/MasterPool()/masterPoolFuncExample.lua)
 
 * **MessageBox()**
     * **About**
@@ -1517,7 +1519,7 @@ Most of the time the following three functions will need to know the variable's 
                     * This is a table with a list of the selector buttons' name and integer value in a key-value pair table.
             * An error is thrown if the message box does not have inputs, states, and selectors, but the script tries to use the table elements.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/M/MessageBox()/messageBoxFuncExample.lua)
 
 * **MouseObj()**
     * **About**
@@ -1530,7 +1532,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns the handle to the mouse object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/M/MouseObj()/mouseObjFuncExample.lua)
 
 ### O
 * **ObjectList()**
@@ -1546,7 +1548,7 @@ Most of the time the following three functions will need to know the variable's 
         * Table
             * This function returns a list of objects based on the inputted handle.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/O/ObjectList()/objectListFuncExample.lua)
 
 ### P
 * **Patch()**
@@ -1560,7 +1562,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle to the patch.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/P/Patch()/patchFuncExample.lua)
 
 * **PopupInput()**
     * **About**
@@ -1600,7 +1602,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/P/PopupInput()/popupInputFuncExample.lua)
 
 * **Printf()**
     * **About**
@@ -1613,7 +1615,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/P/Printf()/printfFuncExample.lua)
 
 * **ProgrammerPart()**
     * **About**
@@ -1626,7 +1628,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle:
             * The returned handle to the current programmer part object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/P/ProgrammerPart()/programmerPartFuncExample.lua)
 
 * **Pult()**
     * **About**
@@ -1640,7 +1642,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle:
             * The returned handle to the pult object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/P/Pult()/pultFuncExample.lua)
 
 ### R
 * **ReleaseType()**
@@ -1655,7 +1657,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the release type of the grandMA3 software.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/R/ReleaseType()/releaseTypeFuncExample.lua)
 
 * **Root()**
     * **About**
@@ -1668,7 +1670,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the Root object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/R/Root()/rootFuncExample.lua)
 
 ### S
 * **SelectedSequence()**
@@ -1682,7 +1684,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle:
             * The returned handle for the selected sequence.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/SelectedSequence()/selectedSequenceFuncExample.lua)
 
 * **Selection()**
     * **About**
@@ -1695,7 +1697,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the Selection object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/Selection()/selectionFuncExample.lua)
 
 * **SelectionCount()**
     * **About**
@@ -1709,7 +1711,7 @@ Most of the time the following three functions will need to know the variable's 
             * The function returns an integer number depicting the total amount of fixtures in the current selection.
                 * If there is no selection, then it returns 0.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/SelectionCount()/selectionCountFuncExample.lua)
 
 * **SelectionFirst()**
     * **About**
@@ -1735,7 +1737,7 @@ Most of the time the following three functions will need to know the variable's 
             * The returned number is the current position on the Z-axis in the selection grid.
                 * The selection grid is 0-based.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/SelectionFirst()/selectionFirstFuncExample.lua)
 
 * **SelectionNext()**
     * **About**
@@ -1763,7 +1765,7 @@ Most of the time the following three functions will need to know the variable's 
             * The returned number is the current position on the Z-axis in the selection grid.
                 * The selection grid is 0-based
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/SelectionNext()/selectionNextFuncExample.lua)
 
 * **SerialNumber()**
     * **About**
@@ -1776,7 +1778,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the serial number of the grandMA3 hardware or grandMA3 onPC.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/SerialNumber()/serialNumberFuncExample.lua)
 
 * **SetBlockInput()**
     * **About**
@@ -1796,7 +1798,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/SetBlockInput()/setBlockInputFuncExample.lua)
 
 * **SetLED()** - Input Table
     * **About**
@@ -1818,7 +1820,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/SetLED()/setLEDFuncExample.lua)
 
 * **ShowData()**
     * **About**
@@ -1831,7 +1833,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the ShowData object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/ShowData()/showDataFuncExample.lua)
 
 * **ShowSettings()**
     * **About**
@@ -1844,7 +1846,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns a handle to the ShowSettings object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/ShowSettings()/showSettingsFuncExample.lua)
 
 * **StrToHandle()**
     * **About**
@@ -1859,7 +1861,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The returned handle based on the string with a hexadecimal number.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/S/StrToHandle()/strToHandleFuncExample.lua)
 
 ### T
 * **TextInput()**
@@ -1886,7 +1888,7 @@ Most of the time the following three functions will need to know the variable's 
         * String
             The returned user input.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/T/TextInput()/textInputFuncExample.lua)
 
 * **Time()**
     * **About**
@@ -1901,7 +1903,7 @@ Most of the time the following three functions will need to know the variable's 
         * Number
             * The returned number (float) is the on-time for the station.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/T/Time()/timeFuncExample.lua)
 
 * **Timer()**
     * **About**
@@ -1928,7 +1930,7 @@ Most of the time the following three functions will need to know the variable's 
     * **Return**
         * This function does not return anything.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/T/Timer()/timerFuncExample.lua)
 
 * **TouchObj()**
     * **About**
@@ -1941,7 +1943,7 @@ Most of the time the following three functions will need to know the variable's 
         * Handle
             * The function returns the handle to the touch object.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/T/TouchObj()/touchObjFuncExample.lua)
 
 ### V
 * **Version()**
@@ -1955,4 +1957,4 @@ Most of the time the following three functions will need to know the variable's 
         * String
             * The returned string is the version of the grandMA3 software.
     * **Examples**
-        * [Click Here]()
+        * [Click Here](https://github.com/MacTirney/GrandMA3-API-Documentation/blob/main/modules/Object%20Free%20API%20Functions/Functions/General%20Functions/V/Version()/versionFuncExample.lua)
